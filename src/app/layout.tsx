@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-  title: "EE Website - Next.js with Routing",
-  description: "A demonstration of Next.js App Router with multiple routes and navigation",
+  title: "IIT Delhi - Electrical Engineering",
+  description: "Making Connections. Delivering Results.",
 };
 
 export default function RootLayout({
@@ -13,7 +14,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">
+      <body className="antialiased bg-white dark:bg-black">
+        <Navbar />
         {children}
       </body>
     </html>
