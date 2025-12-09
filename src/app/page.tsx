@@ -19,7 +19,7 @@ export default function Home() {
           </h1>
           <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
             This Next.js application demonstrates routing with the App Router.
-            Explore different pages to see how routing works in Next.js 13+.
+            Explore different pages to see how routing works in Next.js.
           </p>
           <div className="flex flex-col gap-3 w-full max-w-md">
             <h2 className="text-xl font-semibold text-black dark:text-zinc-50">

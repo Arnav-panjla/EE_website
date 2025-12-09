@@ -9,7 +9,7 @@ const blogPosts: Record<string, { title: string; content: string; date: string }
   },
   "second-post": {
     title: "Understanding App Router",
-    content: "The App Router is a new paradigm in Next.js 13+ that uses React Server Components by default. It provides better performance, more intuitive routing, and improved developer experience with features like layouts, loading states, and error handling built-in.",
+    content: "The App Router is a new paradigm in Next.js that uses React Server Components by default. It provides better performance, more intuitive routing, and improved developer experience with features like layouts, loading states, and error handling built-in.",
     date: "December 5, 2025",
   },
   "third-post": {
